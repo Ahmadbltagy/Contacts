@@ -49,8 +49,8 @@ void Remove(){
 
     fclose(s);
     fclose(w);
-    remove(fname);
-    rename("new.txt", fname);
+    remove("contacts.txt");
+    rename("new.txt", "contacts.txt");
 
 }
 
